@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numRuche"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/n_ruche"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nbHausse"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/nb_hausses"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/nExemp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnNewRucheVal"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:id="@+id/btnNewRucheAnn"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:text="@string/annuler" />
+    </LinearLayout>
+
+</LinearLayout>

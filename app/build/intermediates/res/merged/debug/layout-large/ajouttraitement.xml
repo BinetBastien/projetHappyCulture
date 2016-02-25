@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/libTraitement"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:hint="Libellé du traitement"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnVoir"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape"
+        android:text="Voir la liste des traitements" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAjout"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnAnnuler"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/annuler" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/layout-large/ajouttraitement.xml -->

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HappyCulture</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">HappyCulture</string>
+
+    <!--Mots d'apiculture-->
+    <string name="ruchers">Ruchers</string>
+    <string name="ruches">Ruches</string>
+
+    <!--Taille Boutons-->
+    <string name="widthBTN"> 140dp </string>
+    <string name="heightBTN"> 100dp </string>
+
+    <!--Textes Boutons-->
+    <string name="nouveau" >Nouveau </string>
+    <string name="retour"> Retour </string>
+    <string name="valider"> Valider </string>
+    <string name="annuler"> Annuler </string>
+    <string name="qrcode"> QR Codes </string>
+    <string name="ruchersP"> Ruchers : </string>
+    <string name="numRucher"> N° Rucher : </string>
+    <string name="numRuche"> N° Ruche : </string>
+    <string name="nbHausse"> Nombre de hausses : </string>
+    <string name="adresse"> Adresse : </string>
+    <string name="title_activity_swap">TestSwap</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_test">test</string>
+
+    <!--Couleurs-->
+    <string name="colorMenu"> #7F7F7F </string>
+    <string name="colorBackGround"> #CECECE </string>
+    <string name="title_activity_tabbed_info_ruches">tabbedInfoRuches</string>
+    <string name="title_activity_dates">dates</string>
+
+
+
+
+</resources>

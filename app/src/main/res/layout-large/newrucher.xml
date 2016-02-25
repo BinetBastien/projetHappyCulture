@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/n_rucher"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:hint="Numéro de rucher"
+        android:inputType="number"
+        android:maxLength="3" />
+
+    <EditText
+        android:id="@+id/num_adresse"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:hint="Numéro de rue(facultatif)"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <EditText
+        android:id="@+id/nom_adresse"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, ,-"
+        android:hint="Nom de rue"
+        android:inputType="textFilter"
+        android:maxLength="30" />
+
+    <EditText
+        android:id="@+id/ville_adresse"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, ,-"
+        android:hint="Ville"
+        android:inputType="textFilter" />
+
+    <EditText
+        android:id="@+id/cp_adresse"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:hint="Code postal"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/graphValider"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/graphAnnuler"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/annuler" />
+
+    </LinearLayout>
+
+</LinearLayout>

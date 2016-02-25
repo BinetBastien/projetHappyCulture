@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listTrait"
+        android:layout_width="match_parent"
+        android:layout_height="950dp"
+        android:layout_gravity="center_horizontal"
+        android:fastScrollAlwaysVisible="true"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/retourListeTraitements"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shape"
+        android:text="Retour" />
+
+</LinearLayout><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/layout-xlarge/listetraitements.xml -->

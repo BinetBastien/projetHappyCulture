@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/quantite"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:hint="Quantité de miel:"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/observation"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:hint="Observations"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Date de la récolte"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:gravity="center">
+
+
+        <DatePicker
+            android:id="@+id/datepickerRecolte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recolteValider"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/recolteAnnuler"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/annuler" />
+
+    </LinearLayout>
+
+</LinearLayout>

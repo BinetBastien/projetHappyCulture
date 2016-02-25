@@ -1,0 +1,295 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:2:1-135:12
+	package
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.CAMERA
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:5:5-60
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:5:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:7:22-62
+application
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:9:5-133:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.8.2] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.8.2] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:11:9-37
+	android:theme
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.sacer_000.boutongg.menuPcpl
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:14:9-24:20
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:18:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:16:13-45
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:17:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:15:13-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.sacer_000.boutongg.menuRuchers
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:25:9-29:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:27:13-44
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:28:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:26:13-40
+activity#com.example.sacer_000.boutongg.menuRuches
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:30:9-34:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:32:13-43
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:33:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:31:13-39
+activity#com.example.sacer_000.boutongg.newRucher
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:35:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:37:13-43
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:38:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:36:13-38
+activity#com.example.sacer_000.boutongg.newPoids
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:40:9-44:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:42:13-43
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:41:13-37
+activity#com.example.sacer_000.boutongg.infoRuche
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:45:9-49:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:47:13-47
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:48:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:46:13-38
+activity#com.example.sacer_000.boutongg.newRuche
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:50:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:54:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:52:13-43
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:53:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:51:13-37
+activity#com.example.sacer_000.boutongg.qrCode
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:55:9-59:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:57:13-47
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:58:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:56:13-35
+activity#com.example.sacer_000.boutongg.option
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:60:9-64:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:62:13-36
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:61:13-35
+activity#com.example.sacer_000.boutongg.newRecolte
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:65:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:67:13-36
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:68:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:66:13-39
+activity#com.example.sacer_000.boutongg.TableauRucher
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:70:9-74:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:72:13-33
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:73:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:71:13-42
+activity#com.example.sacer_000.boutongg.ajouterDate
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:75:9-79:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:77:13-42
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:78:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:76:13-40
+activity#com.example.sacer_000.boutongg.ajoutTraitement
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:80:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:82:13-47
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:81:13-44
+activity#com.example.sacer_000.boutongg.listeTraitements
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:85:9-89:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:87:13-64
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:86:13-45
+activity#com.example.sacer_000.boutongg.ajoutNourrissement
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:90:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:94:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:92:13-50
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:93:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:91:13-47
+activity#com.example.sacer_000.boutongg.listeNourrissement
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:95:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:97:13-53
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:98:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:96:13-47
+activity#com.example.sacer_000.boutongg.LecteurQRCode
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:100:9-104:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:102:13-47
+	android:launchMode
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:103:13-48
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:101:13-42
+activity#com.example.sacer_000.boutongg.tabbedInfoRuches
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:105:9-109:58
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:108:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:107:13-70
+	android:theme
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:109:13-56
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:106:13-45
+activity#com.example.sacer_000.boutongg.dates
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:110:9-114:58
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:113:13-49
+	android:label
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:112:13-57
+	android:theme
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:114:13-56
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:111:13-34
+activity#com.example.sacer_000.boutongg.traitementRuche
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:115:9-117:51
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:116:13-44
+activity#com.example.sacer_000.boutongg.nourrissementRuche
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:118:9-120:51
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:119:13-47
+activity#com.example.sacer_000.boutongg.poidsRuche
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:121:9-123:51
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:122:13-39
+activity#com.example.sacer_000.boutongg.menuRucherSup
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:124:9-126:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:125:13-42
+activity#com.example.sacer_000.boutongg.menuRucheSup
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:127:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:128:13-41
+activity#com.example.sacer_000.boutongg.menuSuppression
+ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:130:9-132:52
+	android:screenOrientation
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml:131:13-44
+uses-sdk
+INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [me.dm7.barcodescanner:zxing:1.8.2] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.8.2] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\HappyCulture\app\src\main\AndroidManifest.xml

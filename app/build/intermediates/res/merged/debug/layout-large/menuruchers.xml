@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruchersP"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/listeRucher"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:fastScrollAlwaysVisible="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boutonValider"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:text="@string/nouveau" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/boutonRetour"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:text="@string/retour" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+<!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/layout-large/menuruchers.xml -->

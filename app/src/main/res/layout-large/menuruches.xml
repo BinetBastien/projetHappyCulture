@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruches :"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/listeRuche"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:fastScrollAlwaysVisible="true"></ListView>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boutonValider2"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:text="@string/nouveau" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/boutonRetour2"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:text="@string/retour" />
+    </LinearLayout>
+
+</LinearLayout>

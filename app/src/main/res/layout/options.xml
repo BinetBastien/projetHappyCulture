@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/trait"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Nouveau traitement" />
+
+    <Button
+        android:id="@+id/addNour"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Nouveau nourrissement" />
+
+    <Button
+        android:id="@+id/genererBase"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Generer une base de test" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Ruches/Ruchers Supprimés"
+        android:id="@+id/suppRuch"/>
+
+    <Button
+        android:id="@+id/retourOption"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Retour" />
+
+
+</LinearLayout>

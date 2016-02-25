@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/poids"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Poids"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Date de la pesée :"
+        android:textSize="20sp" />
+
+    <DatePicker
+        android:id="@+id/datepickerPoids"
+        android:layout_width="match_parent"
+        android:layout_height="276dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/poidsValider"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/poidsAnnuler"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/annuler" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/layout/newpoids.xml -->

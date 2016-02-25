@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sacer_000.boutongg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-feature android:name="android.hardware.CAMERA" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bee"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuPcpl"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuRuchers"
+            android:label="@string/ruchers"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuRuches"
+            android:label="@string/ruches"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.newRucher"
+            android:label="Nouveau Rucher"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.newPoids"
+            android:label="Ajout de poids"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.infoRuche"
+            android:label="Informations ruche"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.newRuche"
+            android:label="Nouvelle ruche"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.qrCode"
+            android:label="Lecteur de QR Code"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.option"
+            android:label="Options"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.newRecolte"
+            android:label="Recolte"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.TableauRucher"
+            android:label="Miel"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.ajouterDate"
+            android:label="Nouvelle date"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.ajoutTraitement"
+            android:label="Nouveau traitement"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.listeTraitements"
+            android:label="Liste des traitements dans la table"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.ajoutNourrissement"
+            android:label="Nouveau nourrissement"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.listeNourrissement"
+            android:label="Liste des nourrissements"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.LecteurQRCode"
+            android:label="Lecteur de QR Code"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.tabbedInfoRuches"
+            android:label="@string/title_activity_tabbed_info_ruches"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.dates"
+            android:label="@string/title_activity_dates"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.traitementRuche"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.nourrissementRuche"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.poidsRuche"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuRucherSup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuRucheSup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.sacer_000.boutongg.menuSuppression"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

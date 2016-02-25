@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un traitement :"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/listInfoRuche"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:id="@+id/rucheAjoutTraitement"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:text="Valider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/listInfoRuche2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:id="@+id/rucheAjoutNourrissement"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:text="Valider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <NumberPicker
+            android:id="@+id/ruche_jour"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <NumberPicker
+            android:id="@+id/ruche_mois"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <NumberPicker
+            android:id="@+id/ruche_annee"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextViewPoids"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nouveau poids :"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/infoPoids"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:text="Poids" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/infoRucheRet"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:text="Retour" />
+
+
+</LinearLayout>

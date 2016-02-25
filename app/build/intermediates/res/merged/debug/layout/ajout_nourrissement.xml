@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CECECE"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/libNourrissement"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:hint="Libellé du nourrissement"
+        android:inputType="text" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnVoir"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:text="Voir la liste des nourrissements" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAjout"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/valider" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnAnnuler"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="@string/annuler" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/layout/ajout_nourrissement.xml -->
