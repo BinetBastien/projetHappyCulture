@@ -2,25 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\jars\classes.jar"
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c87c4f493c82d2de01bddf6b1084c92dd670b053">
-        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\classes-1b62aecd4111da58332da5289c25a3e98aaf1f6f.jar" />
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\classes-1222b6a8c69405af2597540eb93e92bc7aeb299b.jar" />
     </item>
     <item
-        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\libs\graphview-4.0.1.jar"
+        jar="C:\Users\Bastien\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8bd182a66f13dedad362bfbf992be96de2be5969">
-        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\graphview-4.0.1-85be1dbfadb94518bef89db4954e338eedeac482.jar" />
-    </item>
-    <item
-        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5c0084184f73c96cb546b26a216225e8d61bbe3e.jar" />
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\core-3.2.0-dee93ee2b149d7bd56333da3f3e7aee2e8fd8864.jar" />
     </item>
     <item
         jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
@@ -37,6 +30,55 @@
         <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\classes-570864af7881e1cc531540a5c0f68dc14c5a8161.jar" />
     </item>
     <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5c0084184f73c96cb546b26a216225e8d61bbe3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\classes-df02da94f0d1c116bfc30b495d5375421d927f13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c87c4f493c82d2de01bddf6b1084c92dd670b053">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\classes-1b62aecd4111da58332da5289c25a3e98aaf1f6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\libs\graphview-4.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd182a66f13dedad362bfbf992be96de2be5969">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\graphview-4.0.1-85be1dbfadb94518bef89db4954e338eedeac482.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\classes-56446bf364ce2c69b8ccf37bf31046fb9fc983b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\classes-f6f7b125c23ee9cc037dea6c0f2b99da5c41b0bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\libs\graphview-4.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd182a66f13dedad362bfbf992be96de2be5969">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\graphview-4.0.1-d87680c5f63a67963bf3426a19a0c6ffba9c3824.jar" />
+    </item>
+    <item
         jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -44,11 +86,18 @@
         <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\classes-e458c88b76d3e5d232f911b590df243a2b6a9dfc.jar" />
     </item>
     <item
-        jar="C:\Users\Bastien\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
-        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\pre-dexed\debug\core-3.2.0-dee93ee2b149d7bd56333da3f3e7aee2e8fd8864.jar" />
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\classes-767a2162cc8aeee4b70ebed07f85bc43768ef5ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\projetHappyCulture\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-b2463664e0bdc233c305566ee74b2a2890ea5834.jar" />
     </item>
     <item
         jar="C:\Users\Bastien\Documents\Etudes\2A-IUTInfo\Projet\Ge\HappyCulture\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"

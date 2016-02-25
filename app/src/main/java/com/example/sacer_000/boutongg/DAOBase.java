@@ -181,12 +181,12 @@ public class DAOBase {
     }
 
     public Cursor select_rucher() {
-        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL FROM RUCHER";
+        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER RU WHERE VERSION NOT IN (SELECT VERSION FROM SUPP_RUCHER SR WHERE SR.N_RUCHER=RU.N_RUCHER)";
         return BDD.rawQuery(query, null);
     }
 
     public Cursor select_rucher(int n_rucher) {
-        String query = "SELECT NUM_AGRIT, VERSION, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL FROM RUCHER WHERE N_RUCHER = " + n_rucher + " AND VERSION = ( SELECT max(VERSION) FROM RUCHER WHERE N_RUCHER =" + n_rucher + ")";
+        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER WHERE N_RUCHER = " + n_rucher + " AND VERSION NOT IN ( SELECT VERSION FROM SUPP_RUCHER WHERE N_RUCHER =" + n_rucher + ")";
         return BDD.rawQuery(query, null);
     }
 
@@ -203,10 +203,18 @@ public class DAOBase {
                 int n_ruche = c.getInt(2);
                 int version = c.getInt(4);
                 insert_supprimer_ruche(n_rucher, n_ruche, date, "",version);
+                c.moveToNext();
             }
         }
-
-        String query = "insert into supp_rucher values ";
+        c.close();
+        //NUM_AGRIT, N_RUCHER, RUCHER_SUPP_DATE, COMMENTAIRE, VERSION
+        int ver = 1;
+        c = select_rucher(n_rucher);
+        if (c != null) {
+            c.moveToFirst();
+            ver = c.getInt(6);
+        }
+        String query = "insert into supp_rucher values (1," + n_rucher + ",'01/01/2000',''," + ver + ")";
         BDD.execSQL(query);
     }
 

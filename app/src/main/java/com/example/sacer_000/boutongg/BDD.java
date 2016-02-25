@@ -92,7 +92,7 @@ public class BDD extends SQLiteOpenHelper {
 
     public static final String RUCHER_SUPP_TABLE_NAME = "SUPP_RUCHER";
 
-    //NUM_AGRIT, N_RUCHER, RUCHER_SUPP_DATE, VERSION
+    //NUM_AGRIT, N_RUCHER, RUCHER_SUPP_DATE, COMMENTAIRE, VERSION
 
     public static final String RUCHER_SUPP_NUM_AGRIT = "NUM_AGRIT";
     public static final String RUCHER_SUPP_NUMERO_RUCHER = "N_RUCHER";
