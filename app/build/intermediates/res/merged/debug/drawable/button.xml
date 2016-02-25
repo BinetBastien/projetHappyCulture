@@ -8,4 +8,4 @@
         android:angle="90" />
     <corners android:radius="5dp"/>
     <stroke android:width="2dp" android:color="#FFFF00"/>
-</shape><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/drawable/button.xml -->
+</shape><!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/src/main/res/drawable/button.xml -->

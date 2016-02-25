@@ -5,4 +5,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/HappyCulture/app/src/main/res/menu/menu_tabbed_info_ruches.xml -->
+<!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/src/main/res/menu/menu_tabbed_info_ruches.xml -->
