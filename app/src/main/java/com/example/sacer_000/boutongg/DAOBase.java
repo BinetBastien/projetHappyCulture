@@ -181,12 +181,15 @@ public class DAOBase {
     }
 
     public Cursor select_rucher() {
-        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER RU WHERE VERSION NOT IN (SELECT VERSION FROM SUPP_RUCHER SR WHERE SR.N_RUCHER=RU.N_RUCHER)";
+        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER RU WHERE RU.VERSION NOT IN " +
+                "(SELECT VERSION FROM SUPP_RUCHER SR WHERE SR.N_RUCHER=RU.N_RUCHER) ORDER BY N_RUCHER";
         return BDD.rawQuery(query, null);
     }
 
     public Cursor select_rucher(int n_rucher) {
-        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER WHERE N_RUCHER = " + n_rucher + " AND VERSION NOT IN ( SELECT VERSION FROM SUPP_RUCHER WHERE N_RUCHER =" + n_rucher + ")";
+        String query = "SELECT NUM_AGRIT, N_RUCHER AS _ID, NUMERO, RUE, VILLE, CODE_POSTAL, VERSION FROM RUCHER" +
+                " WHERE N_RUCHER = " + n_rucher + " AND VERSION NOT IN" +
+                " (SELECT VERSION FROM SUPP_RUCHER WHERE N_RUCHER =" + n_rucher + ")";
         return BDD.rawQuery(query, null);
     }
 
@@ -214,7 +217,7 @@ public class DAOBase {
             c.moveToFirst();
             ver = c.getInt(6);
         }
-        String query = "insert into supp_rucher values (1," + n_rucher + ",'01/01/2000',''," + ver + ")";
+        String query = "insert into supp_rucher values (1," + n_rucher + ",'01/01/2000'," + ver + ",'commentaire')";
         BDD.execSQL(query);
     }
 
@@ -237,8 +240,9 @@ public class DAOBase {
     }
 
     public Cursor select_ruche(int n_rucher) {
-        String query = "SELECT NUM_AGRIT, N_RUCHER, N_RUCHE AS _ID, NBR_HAUSSE, VERSION FROM RUCHE RU WHERE N_RUCHER = " + n_rucher + " AND VERSION NOT IN " +
-                "(SELECT VERSION FROM SUPPRIMER_RUCHE SR WHERE N_RUCHER=" + n_rucher + " AND SR.N_RUCHE=RU.N_RUCHE)";
+        String query = "SELECT NUM_AGRIT, N_RUCHER, N_RUCHE AS _ID, NBR_HAUSSE, VERSION FROM RUCHE RU " +
+                "WHERE N_RUCHER = " + n_rucher + " AND VERSION NOT IN " +
+                "(SELECT VERSION FROM SUPPRIMER_RUCHE SR WHERE N_RUCHER=" + n_rucher + " AND SR.N_RUCHE=RU.N_RUCHE) ORDER BY N_RUCHE";
         return BDD.rawQuery(query, null);
     }
 

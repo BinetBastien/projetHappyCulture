@@ -84,7 +84,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/res/values/values.xml -->
     <eat-comment/>
     <color name="viewfinder_border">#ffafed44</color>
     <color name="viewfinder_laser">#ffcc0000</color>
@@ -268,7 +268,7 @@
     <!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Bastien/Documents/Etudes/2A-IUTInfo/Projet/Ge/projetHappyCulture/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/res/values/values.xml -->
     <eat-comment/>
     <integer name="viewfinder_border_length">60</integer>
     <integer name="viewfinder_border_width">4</integer>

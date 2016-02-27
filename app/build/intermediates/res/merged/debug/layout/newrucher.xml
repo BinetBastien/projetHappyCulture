@@ -11,7 +11,8 @@
         android:layout_height="70dp"
         android:hint="Numéro de rucher"
         android:inputType="number"
-        android:maxLength="3" />
+        android:maxLength="3"
+        android:nextFocusDown="@+id/num_adresse"/>
 
     <EditText
         android:id="@+id/num_adresse"
@@ -19,7 +20,8 @@
         android:layout_height="70dp"
         android:hint="Numéro de rue(facultatif)"
         android:inputType="number"
-        android:maxLength="5" />
+        android:maxLength="5"
+        android:nextFocusDown="@+id/nom_adresse"/>
 
     <EditText
         android:id="@+id/nom_adresse"
@@ -28,7 +30,8 @@
         android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, ,-"
         android:hint="Nom de rue"
         android:inputType="textFilter"
-        android:maxLength="30" />
+        android:maxLength="30"
+        android:nextFocusDown="@+id/ville_adresse"/>
 
     <EditText
         android:id="@+id/ville_adresse"
@@ -36,7 +39,8 @@
         android:layout_height="70dp"
         android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ, ,-"
         android:hint="Ville"
-        android:inputType="textFilter" />
+        android:inputType="textFilter"
+        android:nextFocusDown="@+id/cp_adresse"/>
 
     <EditText
         android:id="@+id/cp_adresse"
@@ -44,7 +48,8 @@
         android:layout_height="70dp"
         android:hint="Code postal"
         android:inputType="number"
-        android:maxLength="5" />
+        android:maxLength="5"
+        android:imeOptions="actionDone"/>
 
     <LinearLayout
         android:layout_width="fill_parent"

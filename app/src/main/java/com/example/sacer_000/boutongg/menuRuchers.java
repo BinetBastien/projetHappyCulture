@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.GestureDetector;
 import android.view.Menu;
@@ -49,6 +50,7 @@ public class menuRuchers extends AppCompatActivity {
             element.put("ID", "Rucher n°" + c.getInt(1));
             element.put("Adresse", "" + c.getString(2) + " " + c.getString(3) + " " + c.getInt(5) + " " + c.getString(4));
             liste.add(element);
+            Log.e("Rucher", "Rucher :" + c.getInt(1) + " Version :" + c.getInt(6));
             c.moveToNext();
         }
         ListAdapter adapter = new SimpleAdapter(this, liste, android.R.layout.simple_list_item_2, new String[]{"ID", "Adresse"}, new int[]{android.R.id.text1, android.R.id.text2});
@@ -123,6 +125,7 @@ public class menuRuchers extends AppCompatActivity {
                 break;
             case 1:
                 menuPcpl.bdd.delete_rucher(n,"");
+                onResume();
                 break;
 
         }

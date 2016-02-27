@@ -83,7 +83,7 @@ public class BDD extends SQLiteOpenHelper {
                     RUCHER_RUE + " TEXT, " +
                     RUCHER_VILLE + " TEXT, " +
                     RUCHER_CODE_POSTAL + " INTEGER, " +
-                    "PRIMARY KEY (" + RUCHER_NUM_AGRIT + "," + RUCHER_N_RUCHER + ")," +
+                    "PRIMARY KEY (" + RUCHER_NUM_AGRIT + "," + RUCHER_N_RUCHER + "," + RUCHER_VERSION + ")," +
                     "FOREIGN KEY (" + RUCHER_NUM_AGRIT + ") REFERENCES APICULTEUR (" + APICULTEUR_NUMERO + ") ) ";
 
     public static final String RUCHER_TABLE_DROP = "DROP TABLE IF EXISTS " + RUCHER_TABLE_NAME + ";";
@@ -92,7 +92,7 @@ public class BDD extends SQLiteOpenHelper {
 
     public static final String RUCHER_SUPP_TABLE_NAME = "SUPP_RUCHER";
 
-    //NUM_AGRIT, N_RUCHER, RUCHER_SUPP_DATE, COMMENTAIRE, VERSION
+    //NUM_AGRIT, N_RUCHER, RUCHER_SUPP_DATE, VERSION, COMMENTAIRE
 
     public static final String RUCHER_SUPP_NUM_AGRIT = "NUM_AGRIT";
     public static final String RUCHER_SUPP_NUMERO_RUCHER = "N_RUCHER";

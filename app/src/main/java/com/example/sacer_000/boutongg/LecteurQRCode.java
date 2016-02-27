@@ -1,12 +1,14 @@
 package com.example.sacer_000.boutongg;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.google.zxing.BarcodeFormat;
+import com.google.zxing.Result;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,35 +63,50 @@ public class LecteurQRCode extends AppCompatActivity implements ZXingScannerView
     @Override
     public void onCreate(Bundle state) {
         super.onCreate(state);
+        mScannerView = new ZXingScannerView(this);   // Programmatically initialize the scanner view
+        setContentView(mScannerView);                // Set the scanner view as the content view
         barcodeFormats.add(BarcodeFormat.QR_CODE);
-        setContentView(R.layout.qrcode);
-        mScannerView = (ZXingScannerView) findViewById(R.id.scan);
-        mScannerView.setFormats(barcodeFormats);
-        mScannerView.setResultHandler(this);
-        mScannerView.startCamera();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        mScannerView.startCamera();
+        mScannerView.setResultHandler(this); // Register ourselves as a handler for scan results.
+        mScannerView.startCamera();          // Start camera on resume
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        mScannerView.stopCamera();
+        mScannerView.stopCamera();           // Stop camera on pause
     }
 
     @Override
-    public void handleResult(com.google.zxing.Result rawResult) {
-        // rawResult.getText() -> texte recupéré contenu dans le qr code
+    public void handleResult(Result rawResult) {
 
-        String chaine = rawResult.getText();
-        List<Integer> echange = new ArrayList<Integer>();
-        chaine = verif(chaine);
-        echange = traducteurQRCode(chaine);
-        Log.e("Blabla", "" + echange.size());
+
+        new AsyncTask<Result, Void, List<Integer>>() {
+
+            @Override
+            protected List<Integer> doInBackground(String... nf) {
+                String chaine = rawResult.getText();
+                String old = "gnee";
+                List<Integer> echange = new ArrayList<Integer>();
+                chaine = verif(chaine);
+                echange = traducteurQRCode(chaine);
+                Log.e("Blabla", "" + echange.size());
+                return echange;
+            }
+
+            @Override
+            protected void onPostExecute(Integer[] args) {
+
+            }
+        }.execute(rawResult);
+
+
+        // Do something with the result here
+
         if (echange.size() == 2) {
             Intent intentFicheProduit = new Intent(LecteurQRCode.this, menuRuches.class);/*ouvre une activite avec le texte en parametre*/
             intentFicheProduit.putExtra("n_rucher", echange.get(1));
@@ -103,9 +120,18 @@ public class LecteurQRCode extends AppCompatActivity implements ZXingScannerView
             startActivity(intentFicheProduit);
             this.finish();
         } else {
-            Toast.makeText(this, "QRCode invalide pour ce lecteur", Toast.LENGTH_LONG).show();
-        }
-    }
+            if (old == chaine) {
+                mScannerView.resumeCameraPreview(this);
+            } else {
+                Log.e("old", old);
+                old = chaine;
+                Toast.makeText(this, "QRCode invalide pour ce lecteur", Toast.LENGTH_LONG).show();
+                mScannerView.resumeCameraPreview(this);
+            }
 
+        }
+        // If you would like to resume scanning, call this method below:
+        //mScannerView.resumeCameraPreview(this);
+    }
 
 }
